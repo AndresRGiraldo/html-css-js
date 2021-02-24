@@ -1,0 +1,87 @@
+body {
+    background-image: url(../imagenes/ocde_resize_md.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+.titulo {
+  font-size: 30px;
+  margin-top: 200px;
+  display: block;
+  color: white;
+}
+
+.login_container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px, 30px;
+  min-height: calc(100vh - 200px);
+}
+
+.login_container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_container label {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.login_container--remenber-me {
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.login_container--remenber-me a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  margin-left: 20px;
+}
+
+.login_container--remenber-me a:hover {
+  text-decoration: underline;
+}
+
+.input {
+  background-color: transparent;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 2px solid white;
+  font-size: 16px;
+  margin-bottom: 20px;
+  padding: 0px, 20px;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: white;
+}
+
+.button {
+  background-color: transparent;
+  border: 2px solid white;
+  border-radius: 16px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.button:hover {
+  background-color: #008cba;
+  color: white;
+}

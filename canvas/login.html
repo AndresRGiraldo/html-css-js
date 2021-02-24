@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Redcode</title>
+    <link rel="stylesheet" href="../the redcode css/login.css" />
+  </head>
+  <body>
+    <section name="formulario" method="get" class="login_container">
+      <p class="titulo">inicio de sesion</p>
+      <form class="login_container--register">
+        <input
+          class="input"
+          minlength="6"
+          required
+          type="text    "
+          placeholder="usuario"
+          id="nombre"
+        />
+        <input
+          class="input"
+          required
+          minlength="8"
+          type="password"
+          placeholder="contraseña"
+          id="password"
+        />
+        <button
+          class="button"
+          type="submit"
+
+        >
+          iniciar sesion
+        </button>
+        <div class="login_container--remenber-me">
+          <label>
+            <input
+              class="recuerdame"
+              type="checkbox"
+              id="cbox1"
+              value="checkbox"
+            />Recuerdame
+            <a href="/">olvide mi contraseña</a>
+          </label>
+        </div>
+      </form>
+    </section>
+    <script src="../the_redcode_javascrip/login.js"></script>
+  </body>
+</html>
